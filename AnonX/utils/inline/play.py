@@ -50,17 +50,19 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
                 text="𝙿𝙰𝚄𝚂𝙴", callback_data=f"ADMIN Pause|{chat_id}"
             ),
             InlineKeyboardButton(
-                text="𝙿𝙻𝙰𝚈𝙻𝙸𝚂𝚃", callback_data=f"add_playlist {videoid}"
-            ),
-            InlineKeyboardButton(
                 text="𝚂𝙺𝙸𝙿", callback_data=f"ADMIN Skip|{chat_id}"
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="𝙿𝙻𝙰𝚈𝙻𝙸𝚂𝚃", callback_data=f"add_playlist {videoid}"
             ),
             InlineKeyboardButton(
                 text="𝚂𝚃𝙾𝙿", callback_data=f"ADMIN Stop|{chat_id}"
             ),
         ],
         [
-            InlineKeyboardButton(
+                   InlineKeyboardButton(
                 text="𝚂𝙾𝚄𝚁𝙲𝙴⁩", url=f"https://t.me/AlmortagelTech"
                         ),
            InlineKeyboardButton(
@@ -70,12 +72,12 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         [
             InlineKeyboardButton(
                 text="✯ᴍʀ ᴇʟᴍᴏʀᴛᴀɢᴇʟ✯", url=f"https://t.me/Almortagel_12"
-            )       
-       ],
-       [            
-            InlineKeyboardButton(             
-              text="✯ 𝙲𝙻𝙾𝚂𝙴 ✯", callback_data=f"close"        
-           )
+            )
+        ],
+        [
+            InlineKeyboardButton(
+                text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
+            )
         ],
     ]
     return buttons
@@ -125,12 +127,17 @@ def telegram_markup_timer(_, chat_id, played, dur):
             InlineKeyboardButton(
                 text="𝚂𝙺𝙸𝙿", callback_data=f"ADMIN Skip|{chat_id}"
             ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="𝙿𝙻𝙰𝚈𝙻𝙸𝚂𝚃", callback_data=f"add_playlist {videoid}"
+            ),
             InlineKeyboardButton(
                 text="𝚂𝚃𝙾𝙿", callback_data=f"ADMIN Stop|{chat_id}"
             ),
         ],
         [
-            InlineKeyboardButton(
+                   InlineKeyboardButton(
                 text="𝚂𝙾𝚄𝚁𝙲𝙴⁩", url=f"https://t.me/AlmortagelTech"
                         ),
            InlineKeyboardButton(
@@ -140,12 +147,12 @@ def telegram_markup_timer(_, chat_id, played, dur):
         [
             InlineKeyboardButton(
                 text="✯ᴍʀ ᴇʟᴍᴏʀᴛᴀɢᴇʟ✯", url=f"https://t.me/Almortagel_12"
-            )      
-        ],         
-        [          
-            InlineKeyboardButton(                 
-                text="✯ 𝙲𝙻𝙾𝚂𝙴 ✯", callback_data=f"close"         
-           )
+            )
+        ],
+        [
+            InlineKeyboardButton(
+                text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
+            )
         ],
     ]
     return buttons
@@ -162,17 +169,19 @@ def stream_markup(_, videoid, chat_id):
                 text="𝙿𝙰𝚄𝚂𝙴", callback_data=f"ADMIN Pause|{chat_id}"
             ),
             InlineKeyboardButton(
+                text="𝚂𝙺𝙸𝙿", callback_data=f"ADMIN Skip|{chat_id}"
+            ), 
+        ],
+        [     
+            InlineKeyboardButton(
                 text="𝙿𝙻𝙰𝚈𝙻𝙸𝚂𝚃", callback_data=f"add_playlist {videoid}"
             ),
             InlineKeyboardButton(
-                text="𝚂𝙺𝙸𝙿", callback_data=f"ADMIN Skip|{chat_id}"
-            ),
-            InlineKeyboardButton(
-                text="𝚂𝚃𝙾𝙿", callback_data=f"ADMIN Stop|{chat_id}"
+               text="𝚂𝚃𝙾𝙿", callback_data=f"ADMIN Stop|{chat_id}"
             ),
         ],
         [
-            InlineKeyboardButton(
+                   InlineKeyboardButton(
                 text="𝚂𝙾𝚄𝚁𝙲𝙴⁩", url=f"https://t.me/AlmortagelTech"
                         ),
            InlineKeyboardButton(
@@ -182,11 +191,11 @@ def stream_markup(_, videoid, chat_id):
         [
             InlineKeyboardButton(
                 text="✯ᴍʀ ᴇʟᴍᴏʀᴛᴀɢᴇʟ✯", url=f"https://t.me/Almortagel_12"
-            )       
+            )
         ],
-        [  
-            InlineKeyboardButton(             
-                text="✯ 𝙲𝙻𝙾𝚂𝙴 ✯", callback_data=f"close" 
+        [
+            InlineKeyboardButton(
+                text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
             )
         ],
     ]
@@ -206,12 +215,17 @@ def telegram_markup(_, chat_id):
             InlineKeyboardButton(
                 text="𝚂𝙺𝙸𝙿", callback_data=f"ADMIN Skip|{chat_id}"
             ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="𝙿𝙻𝙰𝚈𝙻𝙸𝚂𝚃", callback_data=f"add_playlist {videoid}"
+            ),
             InlineKeyboardButton(
                 text="𝚂𝚃𝙾𝙿", callback_data=f"ADMIN Stop|{chat_id}"
             ),
         ],
         [
-            InlineKeyboardButton(
+                   InlineKeyboardButton(
                 text="𝚂𝙾𝚄𝚁𝙲𝙴⁩", url=f"https://t.me/AlmortagelTech"
                         ),
            InlineKeyboardButton(
@@ -221,11 +235,12 @@ def telegram_markup(_, chat_id):
         [
             InlineKeyboardButton(
                 text="✯ᴍʀ ᴇʟᴍᴏʀᴛᴀɢᴇʟ✯", url=f"https://t.me/Almortagel_12"
-            )       
+            )
         ],
-        [            
-             InlineKeyboardButton(     
-               text="✯ 𝙲𝙻𝙾𝚂𝙴 ✯", callback_data=f"close"             )
+        [
+            InlineKeyboardButton(
+                text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
+            )
         ],
     ]
     return buttons
@@ -348,7 +363,7 @@ close_keyboard = InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        text="✯ 𝙲𝙻𝙾𝚂𝙴 ✯", callback_data="close"
+                        text="✯ ᴄʟᴏsᴇ ✯", callback_data="close"
                     )
                 ]    
             ]
@@ -368,17 +383,19 @@ def queue_markup(_, videoid, chat_id):
                 text="𝙿𝙰𝚄𝚂𝙴", callback_data=f"ADMIN Pause|{chat_id}"
             ),
             InlineKeyboardButton(
-                text="𝙿𝙻𝙰𝚈𝙻𝙸𝚂𝚃", callback_data=f"add_playlist {videoid}"
-            ),
-            InlineKeyboardButton(
                 text="𝚂𝙺𝙸𝙿", callback_data=f"ADMIN Skip|{chat_id}"
+            ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="𝙿𝙻𝙰𝚈𝙻𝙸𝚂𝚃", callback_data=f"add_playlist {videoid}"       
             ),
             InlineKeyboardButton(
                 text="𝚂𝚃𝙾𝙿", callback_data=f"ADMIN Stop|{chat_id}"
             ),
         ],
         [
-            InlineKeyboardButton(
+                   InlineKeyboardButton(
                 text="𝚂𝙾𝚄𝚁𝙲𝙴⁩", url=f"https://t.me/AlmortagelTech"
                         ),
            InlineKeyboardButton(
@@ -388,12 +405,12 @@ def queue_markup(_, videoid, chat_id):
         [
             InlineKeyboardButton(
                 text="✯ᴍʀ ᴇʟᴍᴏʀᴛᴀɢᴇʟ✯", url=f"https://t.me/Almortagel_12"
-            )       
-        ],    
-        [            
-           InlineKeyboardButton(            
-                 text="✯ 𝙲𝙻𝙾𝚂𝙴 ✯", callback_data=f"close"           
-           )
+            )
+        ],
+        [
+            InlineKeyboardButton(
+                text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
+            )
         ],
     ]
     return buttons
