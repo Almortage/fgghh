@@ -69,6 +69,11 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
+                text="✯ᴍʀ ᴇʟᴍᴏʀᴛᴀɢᴇʟ✯", url=f"https://t.me/Almortagel_12"
+            )
+        ],
+        [
+            InlineKeyboardButton(
                 text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
             )
         ],
@@ -134,6 +139,11 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
+                text="✯ᴍʀ ᴇʟᴍᴏʀᴛᴀɢᴇʟ✯", url=f"https://t.me/Almortagel_12"
+            )
+        ],
+        [
+            InlineKeyboardButton(
                 text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
             )
         ],
@@ -171,6 +181,11 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
+                text="✯ᴍʀ ᴇʟᴍᴏʀᴛᴀɢᴇʟ✯", url=f"https://t.me/Almortagel_12"
+            )
+        ],
+        [
+            InlineKeyboardButton(
                 text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
             )
         ],
@@ -202,6 +217,11 @@ def telegram_markup(_, chat_id):
            InlineKeyboardButton(
                 text="𝙶𝚁𝙾𝚄𝙿", url=f"https://t.me/AlmortagelTech2"
             ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="✯ᴍʀ ᴇʟᴍᴏʀᴛᴀɢᴇʟ✯", url=f"https://t.me/Almortagel_12"
+            )
         ],
         [
             InlineKeyboardButton(
@@ -365,6 +385,11 @@ def queue_markup(_, videoid, chat_id):
            InlineKeyboardButton(
                 text="𝙶𝚁𝙾𝚄𝙿", url=f"https://t.me/AlmortagelTech2"
             ),
+        ],
+        [
+            InlineKeyboardButton(
+                text="✯ᴍʀ ᴇʟᴍᴏʀᴛᴀɢᴇʟ✯", url=f"https://t.me/Almortagel_12"
+            )
         ],
         [
             InlineKeyboardButton(
