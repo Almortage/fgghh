@@ -61,13 +61,21 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="⌞ ѕᴏụʀᴄᴇ ᴀʟᴍᴏʀᴛᴀɢᴇʟ ⌯ ˹🎧˼⁩", url=f"https://t.me/AlmortagelTech"
-            )
+                text="𝚂𝙾𝚄𝚁𝙲𝙴⁩", url=f"https://t.me/AlmortagelTech"
+                        ),
+           InlineKeyboardButton(
+                text="𝙶𝚁𝙾𝚄𝙿", url=f"https://t.me/AlmortagelTech2"
+            ),
         ],
         [
             InlineKeyboardButton(
-                text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
-            )
+                text="✯ᴍʀ ᴇʟᴍᴏʀᴛᴀɢᴇʟ✯", url=f"https://t.me/Almortagel_12"
+            )       
+       ],
+       [            
+            InlineKeyboardButton(             
+              text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"        
+           )
         ],
     ]
     return buttons
@@ -123,13 +131,21 @@ def telegram_markup_timer(_, chat_id, played, dur):
         ],
         [
             InlineKeyboardButton(
-                text="⌞ ѕᴏụʀᴄᴇ ᴀʟᴍᴏʀᴛᴀɢᴇʟ ⌯ ˹🎧˼⁩", url=f"https://t.me/AlmortagelTech"
-            )
+                text="𝚂𝙾𝚄𝚁𝙲𝙴⁩", url=f"https://t.me/AlmortagelTech"
+                        ),
+           InlineKeyboardButton(
+                text="𝙶𝚁𝙾𝚄𝙿", url=f"https://t.me/AlmortagelTech2"
+            ),
         ],
         [
             InlineKeyboardButton(
-                text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
-            )
+                text="✯ᴍʀ ᴇʟᴍᴏʀᴛᴀɢᴇʟ✯", url=f"https://t.me/Almortagel_12"
+            )      
+        ],         
+        [          
+            InlineKeyboardButton(                 
+                text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"         
+           )
         ],
     ]
     return buttons
@@ -157,12 +173,20 @@ def stream_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="⌞ ѕᴏụʀᴄᴇ ᴀʟᴍᴏʀᴛᴀɢᴇʟ ⌯ ˹🎧˼⁩", url=f"https://t.me/AlmortagelTech"
-            )
+                text="𝚂𝙾𝚄𝚁𝙲𝙴⁩", url=f"https://t.me/AlmortagelTech"
+                        ),
+           InlineKeyboardButton(
+                text="𝙶𝚁𝙾𝚄𝙿", url=f"https://t.me/AlmortagelTech2"
+            ),
         ],
         [
             InlineKeyboardButton(
-                text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
+                text="✯ᴍʀ ᴇʟᴍᴏʀᴛᴀɢᴇʟ✯", url=f"https://t.me/Almortagel_12"
+            )       
+        ],
+        [  
+            InlineKeyboardButton(             
+                text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close" 
             )
         ],
     ]
@@ -188,13 +212,20 @@ def telegram_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="⌞ ѕᴏụʀᴄᴇ ᴀʟᴍᴏʀᴛᴀɢᴇʟ ⌯ ˹🎧˼⁩", url=f"https://t.me/AlmortagelTech"
-            )
+                text="𝚂𝙾𝚄𝚁𝙲𝙴⁩", url=f"https://t.me/AlmortagelTech"
+                        ),
+           InlineKeyboardButton(
+                text="𝙶𝚁𝙾𝚄𝙿", url=f"https://t.me/AlmortagelTech2"
+            ),
         ],
         [
             InlineKeyboardButton(
-                text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
-            )
+                text="✯ᴍʀ ᴇʟᴍᴏʀᴛᴀɢᴇʟ✯", url=f"https://t.me/Almortagel_12"
+            )       
+        ],
+        [            
+             InlineKeyboardButton(     
+               text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"             )
         ],
     ]
     return buttons
@@ -348,13 +379,21 @@ def queue_markup(_, videoid, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="⌞ ѕᴏụʀᴄᴇ ᴀʟᴍᴏʀᴛᴀɢᴇʟ ⌯ ˹🎧˼⁩", url=f"https://t.me/AlmortagelTech"
-            )
+                text="𝚂𝙾𝚄𝚁𝙲𝙴⁩", url=f"https://t.me/AlmortagelTech"
+                        ),
+           InlineKeyboardButton(
+                text="𝙶𝚁𝙾𝚄𝙿", url=f"https://t.me/AlmortagelTech2"
+            ),
         ],
         [
             InlineKeyboardButton(
-                text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"
-            )
+                text="✯ᴍʀ ᴇʟᴍᴏʀᴛᴀɢᴇʟ✯", url=f"https://t.me/Almortagel_12"
+            )       
+        ],    
+        [            
+           InlineKeyboardButton(            
+                 text="✯ ᴄʟᴏsᴇ ✯", callback_data=f"close"           
+           )
         ],
     ]
     return buttons
