@@ -1,18 +1,16 @@
-
 import asyncio
-
+import os
+import time
+import requests
+from config import START_IMG_URL
+from pyrogram import filters
 import random
-
-from AnonX import app
-
-from pyrogram.types import (InlineKeyboardButton,
-
-                            InlineKeyboardMarkup, Message)
-
+from pyrogram import Client
+from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton, ReplyKeyboardMarkup
 from strings.filters import command
-
-from pyrogram import filters, Client
-
+from AnonX import (Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app)
+from AnonX import app
+from random import  choice, randint
 
     @app.on_message(command(["سوره", "قران"]))
 async def ihd(client: Client, message: Message):
