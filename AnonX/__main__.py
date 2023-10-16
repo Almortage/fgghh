@@ -6,7 +6,6 @@ from pyrogram import idle
 from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
-import pytz
 from config import BANNED_USERS
 from AnonX import LOGGER, app, userbot
 from AnonX.core.call import Anon
